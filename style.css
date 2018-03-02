@@ -1,0 +1,194 @@
+body{
+  margin: 0px;
+  font-family: roboto;
+}
+
+.container {
+  display: flex;
+}
+
+.left-half {
+  background-color: white;
+  flex: 1;
+  padding: 1rem;
+  height: 55.6vw;
+}
+
+.right-half {
+  background-color: #04A58C;
+  flex: 0.5;
+  padding: 1rem;
+}
+
+.nav{
+  position: absolute;
+  float: left;
+}
+
+h1{
+  font-size: 5vw;
+  margin-top:25vw;
+  margin-left: 5vw;
+  margin-bottom:-2.3vw;
+  color: #4C4C4B;
+}
+
+p{
+  font-size: 2vw;
+  margin-left: 5.7vw;
+  color:#9C9B9B;
+  font-weight: bold;
+}
+
+a{
+  font-size: 1.3vw;
+  text-decoration: none;
+  font-weight: normal;
+  color:#04A58C;
+}
+
+a:hover{
+  color:#EC505E;
+}
+
+#nava{
+  font-size: 1.5vw;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5vw;
+  color:#04A58C;
+}
+
+#nava:hover{
+  color:#EC505E;
+}
+
+.nav{
+  margin-top:3vw;
+}
+
+#navright{
+  float:right;
+  margin-left: 32vw;
+}
+
+#navright2{
+  float:right;
+  margin-left: 65vw;
+}
+
+#quote{
+  color: white;
+  font-weight: normal;
+  font-size: 1.3vw;
+  margin-top:25vw;
+  text-align: justify;
+  width: 20.5vw;
+}
+
+#ch{
+  margin-left: 0;
+  font-size: 1.3vw;
+  font-weight: normal;
+  color:white;
+}
+
+#ch:hover{
+  color:#F5B149;
+}
+
+.body{
+  color: #4C4C4B;
+  font-weight: normal;
+  font-size: 1.3vw;
+  line-height: 2vw;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  width: 44vw;
+}
+
+.small{
+  font-size:1.6vw;
+  margin-top: 20vw;
+  display:block;
+}
+
+#re{
+  margin-top: 5vw;
+}
+
+footer{
+  background-color: black;
+}
+
+#icons{
+  padding:10vw;
+  text-align:center;
+}
+
+#icon:hover, #icon1:hover{
+  opacity: 1;
+}
+
+#icon1{
+  margin-left: 0;
+  opacity: 0.1;
+}
+
+#icon{
+  margin-left: 5vw;
+  opacity: 0.1;
+}
+
+/*images*/
+
+.lk{
+  width:100%;
+}
+
+.overlay-container{
+  min-width:100%;
+  background-color:white;
+  width:100%;
+  float:left;
+  position:relative;
+  max-width:300px;
+  overflow:hidden;
+  line-height:0;
+	height: 55vw;
+  margin-top: 5vw;
+}
+
+#firstimg{
+  margin-top: 20vw;
+}
+
+#lastimg{
+  margin-bottom: 20vw;
+}
+
+.overlay{
+  color:white;
+  background-color:purple;
+  background-color:#04A58C;
+  text-align:center;
+  padding:10% 5% 30%;
+  box-sizing:border-box;
+  position:absolute;
+  width:100%;
+  left:0;
+  line-height:1;
+  transition:all .3s ease-in-out;
+  opacity:0;
+  top:10%;
+	height: 55vw;
+}
+
+#over{
+  margin-top:15vw;
+}
+
+.overlay-container:hover .overlay{
+  opacity:1;
+  top:0;
+}
